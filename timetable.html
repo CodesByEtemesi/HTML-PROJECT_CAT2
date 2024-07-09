@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCA University Time Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            font-weight: lighter;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+        td {
+            text-align: left;
+        }
+        .no-border {
+            border: none;
+        }
+        .day-header {
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .left-align {
+            text-align: left;
+        }
+        .center-align {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>KCA UNIVERSITY</h1>
+    <h2>TIME TABLE</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>DAYS</th>
+                <th>MORNING</th>
+                <th>MID MORNING</th>
+                <th>LUNCH</th>
+                <th>AFTER NOON</th>
+                <th>EVENING</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="day-header">MON</td>
+                <td class="no-border"></td>
+                <td class="left-align">LECT 1</td>
+                <td class="no-border"></td>
+                <td class="left-align">LECT 2</td>
+                <td class="left-align">LECT 3</td>
+            </tr>
+            <tr>
+                <td class="day-header">TUE</td>
+                <td class="no-border"></td>
+                <td class="left-align">LECT 1</td>
+                <td class="no-border"></td>
+                <td colspan="2" rowspan="2" class="center-align">TALK</td>
+            </tr>
+            <tr>
+                <td class="day-header">WED</td>
+                <td class="no-border"></td>
+                <td rowspan="2" class="center-align">LECT 3</td>
+                <td class="no-border"></td>
+            </tr>
+            <tr>
+                <td class="day-header">THUR</td>
+                <td class="no-border"></td>
+                <td class="no-border"></td>
+                <td class="left-align">LECT 2</td>
+                <td class="left-align">LECT 4</td>
+            </tr>
+            <tr>
+                <td class="day-header">FRI</td>
+                <td class="left-align"></td>
+                <td class="left-align">LECT 5</td>
+                <td class="left-align"></td>
+                <td colspan="2" class="left-align"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
