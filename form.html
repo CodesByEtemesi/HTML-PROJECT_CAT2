@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Form</title>
+</head>
+<body>
+    <!-- <h2>Comment Form</h2> -->
+    <form action="#" method="post">
+        <label for="comment_topic">What about us do you want to comment on?</label>
+        <select id="comment_topic" name="comment_topic">
+            <option value=""></option>
+            <option value="company">COMPANY</option>
+            <option value="product">PRODUCTS</option>
+            <option value="store">STORE</option>
+            <option value="employee">Employee</option>
+            <option value="other">OTHER</option>
+        </select>
+        <br>
+        <label for="other_comment">Other:</label>
+        <input type="text" id="other_comment" name="other_comment">
+        <br>
+        <label for="comments">Enter your comments in the space provided below:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here..." required></textarea>
+        <br>
+        <label for="name">Tell us how to get in touch with you:</label>
+        <br>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
